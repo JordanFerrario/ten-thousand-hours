@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; 
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+}
+
+#clock {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#punch-button {
+    font-size: 1.25rem;
+}
+
+#hours-logged {
+    margin-top: 20px;
+    font-size: 20px;
+}
